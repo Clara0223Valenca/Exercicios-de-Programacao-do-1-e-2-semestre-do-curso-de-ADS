@@ -20,7 +20,7 @@ public class Pessoa{
     }
 
 
-    //construtor  (tem que colocar as informações no momneot que instancia na main)
+    //construtor  (tem que colocar as informações no momento que instancia na main)
     public Pessoa (String nome, int ano, String cpf){
         this.nome = nome;
         this.ano = ano;
@@ -58,5 +58,6 @@ public class Pessoa{
         return idade(anoAtual);
 
     }
+
 
 }
